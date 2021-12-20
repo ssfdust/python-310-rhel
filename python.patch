@@ -1,0 +1,10 @@
+--- ./setup.py	2021-12-08 17:07:03.872937009 +0800
++++ ./setup.py	2021-12-08 17:08:32.999247971 +0800
+@@ -1544,6 +1544,7 @@
+         sqlite_inc_paths = [ '/usr/include',
+                              '/usr/include/sqlite',
+                              '/usr/include/sqlite3',
++                             '/opt/pydeps/include',
+                              '/usr/local/include',
+                              '/usr/local/include/sqlite',
+                              '/usr/local/include/sqlite3',
